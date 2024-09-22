@@ -12,10 +12,10 @@ import (
 	"time"
 )
 
-//Number of Questions to ask
+// Number of Questions to ask
 const totalQuestions = 5
 
-//Question struct that stores question with answer
+// Question struct that stores question with answer
 type Question struct {
 	question string
 	answer   string
